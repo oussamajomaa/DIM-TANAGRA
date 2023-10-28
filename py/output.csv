@@ -1,0 +1,25 @@
+file	sentence	entity	label	score	lat	long
+-->	La partie européenne de la France, appelée France métropolitaine, est située à l'extrémité occidentale de l'Europe, et sa délimitation est restée inchangée depuis la fin de la Seconde Guerre mondiale et le traité de Paris en 1947.	France	3 stars	0.29	46.603354	1.8883335
+-->	La partie européenne de la France, appelée France métropolitaine, est située à l'extrémité occidentale de l'Europe, et sa délimitation est restée inchangée depuis la fin de la Seconde Guerre mondiale et le traité de Paris en 1947.	France	3 stars	0.29	46.603354	1.8883335
+-->	La partie européenne de la France, appelée France métropolitaine, est située à l'extrémité occidentale de l'Europe, et sa délimitation est restée inchangée depuis la fin de la Seconde Guerre mondiale et le traité de Paris en 1947.	Europe	3 stars	0.29	51.0	10.0
+-->	Elle est bordée par la mer du Nord au nord, la Manche au nord-nord-ouest, la mer Celtique à l'ouest-nord-ouest, le golfe de Gascogne à l'ouest et la mer Méditerranée au sud-est.	mer du Nord	4 stars	0.31	56.0026997	2.8144672799047834
+-->	Elle est bordée par la mer du Nord au nord, la Manche au nord-nord-ouest, la mer Celtique à l'ouest-nord-ouest, le golfe de Gascogne à l'ouest et la mer Méditerranée au sud-est.	Manche	4 stars	0.31	50.4924668	1.054682
+-->	Elle est bordée par la mer du Nord au nord, la Manche au nord-nord-ouest, la mer Celtique à l'ouest-nord-ouest, le golfe de Gascogne à l'ouest et la mer Méditerranée au sud-est.	mer Celtique	4 stars	0.31	50.9526963	-6.9304682
+-->	Elle est bordée par la mer du Nord au nord, la Manche au nord-nord-ouest, la mer Celtique à l'ouest-nord-ouest, le golfe de Gascogne à l'ouest et la mer Méditerranée au sud-est.	golfe de Gascogne	4 stars	0.31	45.615026349999994	-3.6584819431052997
+-->	Elle est bordée par la mer du Nord au nord, la Manche au nord-nord-ouest, la mer Celtique à l'ouest-nord-ouest, le golfe de Gascogne à l'ouest et la mer Méditerranée au sud-est.	mer Méditerranée	4 stars	0.31	35.0000035	19.9999957
+-->	"Elle est frontalière de la Belgique au nord-nord-est, du Luxembourg au nord-est, de l'Allemagne à l'est-nord-est, de la Suisse à l'est, de l'Italie à l'est-sud-est, de Monaco au sud-est et de l'Espagne et Andorre au sud-sud-ouest.
+"	Belgique	5 stars	0.28	50.6402809	4.6667145
+-->	"Elle est frontalière de la Belgique au nord-nord-est, du Luxembourg au nord-est, de l'Allemagne à l'est-nord-est, de la Suisse à l'est, de l'Italie à l'est-sud-est, de Monaco au sud-est et de l'Espagne et Andorre au sud-sud-ouest.
+"	Luxembourg	5 stars	0.28	49.61167	6.13
+-->	"Elle est frontalière de la Belgique au nord-nord-est, du Luxembourg au nord-est, de l'Allemagne à l'est-nord-est, de la Suisse à l'est, de l'Italie à l'est-sud-est, de Monaco au sud-est et de l'Espagne et Andorre au sud-sud-ouest.
+"	Allemagne	5 stars	0.28	49.1478994	-0.3753212
+-->	"Elle est frontalière de la Belgique au nord-nord-est, du Luxembourg au nord-est, de l'Allemagne à l'est-nord-est, de la Suisse à l'est, de l'Italie à l'est-sud-est, de Monaco au sud-est et de l'Espagne et Andorre au sud-sud-ouest.
+"	Suisse	5 stars	0.28	46.7985624	8.2319736
+-->	"Elle est frontalière de la Belgique au nord-nord-est, du Luxembourg au nord-est, de l'Allemagne à l'est-nord-est, de la Suisse à l'est, de l'Italie à l'est-sud-est, de Monaco au sud-est et de l'Espagne et Andorre au sud-sud-ouest.
+"	Italie	5 stars	0.28	42.6384261	12.674297
+-->	"Elle est frontalière de la Belgique au nord-nord-est, du Luxembourg au nord-est, de l'Allemagne à l'est-nord-est, de la Suisse à l'est, de l'Italie à l'est-sud-est, de Monaco au sud-est et de l'Espagne et Andorre au sud-sud-ouest.
+"	Monaco	5 stars	0.28	43.73718	7.42145
+-->	"Elle est frontalière de la Belgique au nord-nord-est, du Luxembourg au nord-est, de l'Allemagne à l'est-nord-est, de la Suisse à l'est, de l'Italie à l'est-sud-est, de Monaco au sud-est et de l'Espagne et Andorre au sud-sud-ouest.
+"	Espagne	5 stars	0.28	39.3260685	-4.8379791
+-->	"Elle est frontalière de la Belgique au nord-nord-est, du Luxembourg au nord-est, de l'Allemagne à l'est-nord-est, de la Suisse à l'est, de l'Italie à l'est-sud-est, de Monaco au sud-est et de l'Espagne et Andorre au sud-sud-ouest.
+"	Andorre	5 stars	0.28	42.5407167	1.5732033

@@ -1,0 +1,152 @@
+[
+    {
+        "name": "France",
+        "latitude": 46.603354,
+        "longitude": 1.8883335,
+        "occurrences": 2,
+        "positive_labels": 0,
+        "negative_labels": 0,
+        "neutral_labels": 2,
+        "overall_sentiment": "Neutral"
+    },
+    {
+        "name": "Europe",
+        "latitude": 51.0,
+        "longitude": 10.0,
+        "occurrences": 1,
+        "positive_labels": 0,
+        "negative_labels": 0,
+        "neutral_labels": 1,
+        "overall_sentiment": "Neutral"
+    },
+    {
+        "name": "mer du Nord",
+        "latitude": 56.0026997,
+        "longitude": 2.8144672799047834,
+        "occurrences": 1,
+        "positive_labels": 1,
+        "negative_labels": 0,
+        "neutral_labels": 0,
+        "overall_sentiment": "Positive"
+    },
+    {
+        "name": "Manche",
+        "latitude": 50.4924668,
+        "longitude": 1.054682,
+        "occurrences": 1,
+        "positive_labels": 1,
+        "negative_labels": 0,
+        "neutral_labels": 0,
+        "overall_sentiment": "Positive"
+    },
+    {
+        "name": "mer Celtique",
+        "latitude": 50.9526963,
+        "longitude": -6.9304682,
+        "occurrences": 1,
+        "positive_labels": 1,
+        "negative_labels": 0,
+        "neutral_labels": 0,
+        "overall_sentiment": "Positive"
+    },
+    {
+        "name": "golfe de Gascogne",
+        "latitude": 45.615026349999994,
+        "longitude": -3.6584819431052997,
+        "occurrences": 1,
+        "positive_labels": 1,
+        "negative_labels": 0,
+        "neutral_labels": 0,
+        "overall_sentiment": "Positive"
+    },
+    {
+        "name": "mer Méditerranée",
+        "latitude": 35.0000035,
+        "longitude": 19.9999957,
+        "occurrences": 1,
+        "positive_labels": 1,
+        "negative_labels": 0,
+        "neutral_labels": 0,
+        "overall_sentiment": "Positive"
+    },
+    {
+        "name": "Belgique",
+        "latitude": 50.6402809,
+        "longitude": 4.6667145,
+        "occurrences": 1,
+        "positive_labels": 1,
+        "negative_labels": 0,
+        "neutral_labels": 0,
+        "overall_sentiment": "Positive"
+    },
+    {
+        "name": "Luxembourg",
+        "latitude": 49.61167,
+        "longitude": 6.13,
+        "occurrences": 1,
+        "positive_labels": 1,
+        "negative_labels": 0,
+        "neutral_labels": 0,
+        "overall_sentiment": "Positive"
+    },
+    {
+        "name": "Allemagne",
+        "latitude": 49.1478994,
+        "longitude": -0.3753212,
+        "occurrences": 1,
+        "positive_labels": 1,
+        "negative_labels": 0,
+        "neutral_labels": 0,
+        "overall_sentiment": "Positive"
+    },
+    {
+        "name": "Suisse",
+        "latitude": 46.7985624,
+        "longitude": 8.2319736,
+        "occurrences": 1,
+        "positive_labels": 1,
+        "negative_labels": 0,
+        "neutral_labels": 0,
+        "overall_sentiment": "Positive"
+    },
+    {
+        "name": "Italie",
+        "latitude": 42.6384261,
+        "longitude": 12.674297,
+        "occurrences": 1,
+        "positive_labels": 1,
+        "negative_labels": 0,
+        "neutral_labels": 0,
+        "overall_sentiment": "Positive"
+    },
+    {
+        "name": "Monaco",
+        "latitude": 43.73718,
+        "longitude": 7.42145,
+        "occurrences": 1,
+        "positive_labels": 1,
+        "negative_labels": 0,
+        "neutral_labels": 0,
+        "overall_sentiment": "Positive"
+    },
+    {
+        "name": "Espagne",
+        "latitude": 39.3260685,
+        "longitude": -4.8379791,
+        "occurrences": 1,
+        "positive_labels": 1,
+        "negative_labels": 0,
+        "neutral_labels": 0,
+        "overall_sentiment": "Positive"
+    },
+    {
+        "name": "Andorre",
+        "latitude": 42.5407167,
+        "longitude": 1.5732033,
+        "occurrences": 1,
+        "positive_labels": 1,
+        "negative_labels": 0,
+        "neutral_labels": 0,
+        "overall_sentiment": "Positive"
+    }
+]
