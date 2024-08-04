@@ -1,5 +1,5 @@
 
-import pandas as pd
+# import pandas as pd
 import json
 
 from flask import Flask, request
@@ -10,18 +10,20 @@ import mysql.connector
 from itertools import groupby
 from operator import itemgetter
 import folium
-from deep_translator import GoogleTranslator
+# from deep_translator import GoogleTranslator
 
 # nlp = en_core_web_md.load()
 # nlp = spacy.load('en_core_web_sm')
-nlp = spacy.load('fr_core_news_sm')
+# nlp = spacy.load('fr_core_news_sm')
+# nlp = spacy.load("fr_core_news_sm")
+
 label = "LOC"
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 
-@app.route('/')
+# @app.route('/')
 def getCoord():
     # Connect to the database
     cnx = mysql.connector.connect(
@@ -31,7 +33,7 @@ def getCoord():
     cursor = cnx.cursor()
 
     # Execute a SQL statement
-    cursor.execute("SELECT * FROM cities")
+    cursor.execute("SELECT * FROM villes_france_free")
     # Fetch the results
     # results = dict(zip(cursor.column_names, cursor.fetchall()))
     columns = cursor.description
@@ -52,32 +54,43 @@ def getCoord():
 
 @app.route('/text', methods=["POST"])
 def getEnt():
-    map = folium.Map(location=[20, 0], tiles="OpenStreetMap", zoom_start=2)
+    # map = folium.Map(location=[20, 0], tiles="OpenStreetMap", zoom_start=2)
     body = request.get_json(force=True)
     res_coord = []
     try:
         # Get body request
 
-        nlp = spacy.load('en_core_web_sm')
-        label = "GPE"
+        # nlp = spacy.load('en_core_web_sm')
+        nlp = spacy.load("fr_core_news_sm")
+
+        label = "LOC"
 
         tokens = nlp(body)
-
         entities = []
         sentences = []
+        
 
+
+        # for ent in tokens.ents:
+        #     print(ent.text, ent.label_)
+
+        print(tokens.sents)
         # split tokens into sentences
         for sentence in tokens.sents:
-            sentence = str(sentence)
-            sentence = GoogleTranslator(source="auto", target="en").translate(sentence) 
-            ents = nlp(str(sentence)).ents
+            print("sentence **  " + sentence.text)
+            # sentence = str(sentence)
+            sentence = sentence.text
 
+            # sentence = GoogleTranslator(source="auto", target="en").translate(sentence) 
+            # ents = nlp(str(sentence)).ents
+            ents = nlp(sentence).ents
             # Create a TextBlob object
             blob = TextBlob(sentence)
             sentiment = blob.sentiment.polarity
             sentences.append(sentence)
             for ent in ents:
                 if ent.label_ == label:
+                    print(ent.label)
                     if sentiment > 0:
                         entities.append(
                             {"name": ent.text, "emotion": "Positive"})
@@ -124,7 +137,7 @@ def getEnt():
                 if city["name"] == loc["name"]:
                     item = {
                         'name': loc["name"],
-                        'country': city["country"],
+                        'country': "France",
                         'overall_sentiment': loc["overall_sentiment"],
                         'latitude': city["lat"],
                         'longitude': city["lng"],
@@ -135,8 +148,9 @@ def getEnt():
                     # break
 
             
-    except:
-        print("Error")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+
 
     print(res_coord)
     return res_coord
